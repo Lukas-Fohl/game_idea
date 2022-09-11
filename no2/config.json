@@ -1,0 +1,7 @@
+{
+	"frame_rate":30,
+	"ray_cast_amount":100,
+	"game_size":[192,108],
+	"fov": 110,
+	"render_distacne": 20
+}

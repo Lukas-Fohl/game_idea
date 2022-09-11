@@ -1,0 +1,41 @@
+{
+    "player" :
+    [
+        {
+            "attack":
+            {
+                "x" : 0,
+                "y" : 0,
+                "state":"",
+                "pros" : 0
+            },
+            "player":
+            {
+                "x" : 0,
+                "y" : 0,
+                "state":""
+            }
+        }
+    ],
+    "ent_array":
+    [
+        {
+            "entities":
+            {
+                "attack":
+                {
+                    "x" : 0,
+                    "y" : 0,
+                    "state":"",
+                    "pros" : 0
+                },
+                "ent":
+                {
+                    "x" : 0,
+                    "y" : 0,
+                    "state":""
+                }   
+            }
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+Game:
+	-
+
+stuff:
+	-delta time
+	-add images to load into scene
+	-make working scene loading
+	-working entitys
+
+designe:
+	-block class
+		-poly -> block behav
+	-player 
+	

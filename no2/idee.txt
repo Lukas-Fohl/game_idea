@@ -1,0 +1,32 @@
+todo:
+    add components:
+[ ]     -player   --> test main system
+[ ]     -gamedesigne
+[ ]     -sprites
+[ ]     -raycasting
+[ ]     -output
+[ ]     -collision
+
+    PoC:
+[ ]     -raycasting 
+[ ]     -delat time --> fix time 
+
+    fix:
+[ ]     -player = cam --> coigate 
+
+
+
+Great stuff:
+vertical 
+	tan(alp) = dy/dx --> tan(alp)*dx = dy
+	--> angle = input ; dx = x(input) + diff ; dy = searched value 
+	--> when collision point is found:
+		-length = sqrt(dx**2+dy**2) = sqrt((tan(alp)*dx)**2+dx**2)
+
+apl' = 90 - alp
+
+horizontal:
+	-tan(alp') = dx/dy --> tan(alp')*dy = dx
+	--> angle = input ; dy = y(input) + diff ; dx = searched value 
+	--> when collision point is found:
+		-length = sqrt(dx**2+dy**2) = sqrt((tan(alp')*dy)**2+dy**2)

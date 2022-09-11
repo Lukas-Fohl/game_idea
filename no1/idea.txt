@@ -1,0 +1,20 @@
+classes
+    entety
+        Player:
+            -weapon (1 and pehaps 2)
+            -skin
+        enemy:
+            -strength
+            -type 
+                -skin
+    envirement --> is devided in to 16by16 squares so that i can only load the one that you can see --> 16by16 is devided in to 4by4 squares for simples cam movement 
+        pos in world
+            16by16 infos 
+                -->block like surface enemy
+
+all enemys and regions are stored in json files 
+
+plan:
+    -top down 
+    -have weapon (first sword then stronger sword(after boss or so)then bow oder other long range stuff)
+    -regions with diverent enemys and envirement types
